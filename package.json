@@ -1,0 +1,32 @@
+{
+  "name": "trucy",
+  "version": "0.0.1",
+  "description": "Automatic Project File Generation",
+  "bin": {
+    "trucy": "bin/trucy.js"
+  },
+  "main": "lib/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mirreal/trucy.git"
+  },
+  "keywords": [],
+  "author": "mirreal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mirreal/trucy/issues"
+  },
+  "homepage": "https://github.com/mirreal/trucy#readme",
+  "devDependencies": {
+    "eslint": "^4.17.0",
+    "eslint-config-link-base": "^0.1.2",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "commander": "^2.14.1",
+    "download-git-repo": "^1.0.2",
+    "ora": "^1.4.0"
+  }
+}
