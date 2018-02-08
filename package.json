@@ -1,6 +1,6 @@
 {
   "name": "trucy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Automatic Project File Generation",
   "bin": {
     "trucy": "bin/trucy.js"
@@ -27,6 +27,7 @@
     "chalk": "^2.3.0",
     "commander": "^2.14.1",
     "download-git-repo": "^1.0.2",
+    "ncp": "^2.0.0",
     "ora": "^1.4.0"
   }
 }
