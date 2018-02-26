@@ -1,6 +1,6 @@
 {
   "name": "trucy",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Automatic Project File Generation",
   "bin": {
     "trucy": "bin/trucy.js"
