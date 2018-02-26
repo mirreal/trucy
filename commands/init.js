@@ -17,6 +17,9 @@ const question = [
     }
 ]
 
-module.exports = inquirer.prompt(question).then(({ name, template }) => {
+module.exports = inquirer.prompt(question).then(({
+    name,
+    template
+}) => {
     downloadTemplate(name, template)
 })
